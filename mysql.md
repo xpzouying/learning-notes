@@ -195,3 +195,27 @@ redo log用来保证事务的持久性，undo log用来帮助事务回滚及MVCC
 
    redo log在事务进行中不断地被写入。
 
+
+
+## InnoDB事务隔离级别和锁的关系
+
+参考：[Innodb中的事务隔离级别和锁的关系](https://tech.meituan.com/2014/08/20/innodb-lock.html)
+
+| 隔离级别                     | 脏读（Dirty Read） | 不可重复读（NonRepeatable Read） | 幻读（Phantom Read） |
+| :--------------------------- | :----------------- | :------------------------------- | :------------------- |
+| 未提交读（Read uncommitted） | 可能               | 可能                             | 可能                 |
+| 已提交读（Read committed）   | 不可能             | 可能                             | 可能                 |
+| 可重复读（Repeatable read）  | 不可能             | 不可能                           | 可能                 |
+| 可串行化（Serializable ）    | 不可能             | 不可能                           | 不可能               |
+
+- 未提交读(Read Uncommitted)：允许脏读，也就是可能读取到其他会话中未提交事务修改的数据
+- 提交读(Read Committed)：只能读取到已经提交的数据。Oracle等多数数据库默认都是该级别 (不重复读)
+- 可重复读(Repeated Read)：可重复读。在同一个事务内的查询都是事务开始时刻一致的，InnoDB默认级别。在SQL标准中，该隔离级别消除了不可重复读，但是还存在幻象读
+- 串行读(Serializable)：完全串行化的读，每次读都需要获得表级共享锁，读写相互都会阻塞
+
+
+
+# 参考资料
+
+- [Innodb中的事务隔离级别和锁的关系](https://tech.meituan.com/2014/08/20/innodb-lock.html) 
+
