@@ -251,6 +251,8 @@ redo log用来保证事务的持久性，undo log用来帮助事务回滚及MVCC
 2. SQL线程，复制执行中继日志。
 
 
+![mysql_replication](./assets/mysql_replication.jpg)
+
 
 
 # 参考资料
