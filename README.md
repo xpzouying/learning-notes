@@ -6,6 +6,11 @@
 - [ ] [kubernetes proposals](https://github.com/kubernetes/community/tree/master/contributors/design-proposals)
 
 
+## 数据库笔记
+
+- [MySQL笔记](mysql.md)
+
+
 ## 极客时间 学习
 
 - [x] 深入剖析Kubernetes
