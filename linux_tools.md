@@ -1,6 +1,71 @@
 # Linux常用工具
 
 
+## 结合UPS实现自动关机
+
+**1、大致原理：**
+
+1. 主机插入UPS电源；开机启动该脚本；
+1. 脚本每隔一段时间间隔后，ping局域网中的一台设备，且该设备未接入UPS电源，比如路由器（192.168.1.1）。如果ping不通，则表示可能由于市电导致关机，则准备使用脚本进行关机。
+
+
+
+```bash
+#!/bin/bash
+
+target_ip=192.168.1.1
+failure_count=0
+shutdown_failure_count_threshold=15
+
+while :
+do
+  ping -c 1 $target_ip &> /dev/null
+  if [ $? -eq 0 ]; then
+    ((failure_count=0))
+  else
+    ((failure_count++))
+  fi
+  sleep 10s
+  if [ $failure_count -eq $shutdown_failure_count_threshold ]; then
+    /sbin/shutdown -hP now
+    break
+  fi
+done
+
+exit 0
+```
+
+**添加为开机启动**
+
+不使用`sudo`来运行该命令，直接增加`root`用户的crontab。例如：直接运行：
+
+```bash
+# 增加root的crontab
+sudo crontab -e
+```
+
+crontab的命令示例如下，
+
+```bash
+@reboot  /path/to/job
+@reboot  /path/to/shell.script
+@reboot  /path/to/command arg1 arg2
+```
+
+增加我们的命令：
+
+```bash
+# 注意脚本中的 /sbin/shutdown需要使用绝对路径
+@reboot /usr/local/bin/ups-safe-shutdown.sh &
+```
+
+**参考来源：**
+
+- [Proxmox VE下配合UPS使用的断电关机脚本](https://juejin.im/post/6874098313839575047)
+- [running command  at startup on crontab](https://askubuntu.com/questions/735935/running-command-at-startup-on-crontab)
+- [Linux execute cron job after system reboot](https://www.cyberciti.biz/faq/linux-execute-cron-job-after-system-reboot/)
+
+
 ## 测试局域网内的网络
 
 **1、环境准备**
