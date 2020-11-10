@@ -135,3 +135,17 @@ iperf3 -c {server_ip} -i1 -t10
 Server listening on 5201
 -----------------------------------------------------------
 ```
+
+
+## MySQL主从启动
+
+```bash
+# git clone
+git clone https://github.com/vbabak/docker-mysql-master-slave
+
+# run
+./build.sh
+```
+
+
+mydb数据库会进行同步。
