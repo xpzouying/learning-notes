@@ -149,3 +149,8 @@ git clone https://github.com/vbabak/docker-mysql-master-slave
 
 
 mydb数据库会进行同步。
+
+
+## Mac OS 自动根据WI-FI名字改变网络位置
+
+- [Mac OS 自动根据WI-FI名字改变网络位置](https://razeencheng.com/post/auto-change-network-location-base-on-name-of-wifi.html)
