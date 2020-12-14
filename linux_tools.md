@@ -1,6 +1,31 @@
 # Linux常用工具
 
 
+
+## Linux Cmd
+
+
+
+### awk
+
+**参考资料：**
+
+- [How To Use the AWK language to Manipulate Text in Linux](https://www.digitalocean.com/community/tutorials/how-to-use-the-awk-language-to-manipulate-text-in-linux)
+
+**笔记：**
+
+- 基本命令
+
+  ```bash
+  awk '/search_pattern/ { action_to_take_on_matches; another_action; }' file_to_parse
+  ```
+
+  
+
+- 
+
+
+
 ## 结合UPS实现自动关机
 
 **1、大致原理：**
@@ -154,3 +179,6 @@ mydb数据库会进行同步。
 ## Mac OS 自动根据WI-FI名字改变网络位置
 
 - [Mac OS 自动根据WI-FI名字改变网络位置](https://razeencheng.com/post/auto-change-network-location-base-on-name-of-wifi.html)
+
+
+
