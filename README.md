@@ -23,6 +23,16 @@
 | [Writing a Pool Allocator](http://dmitrysoshnikov.com/compilers/writing-a-pool-allocator/) | 2020-12-15 |                         |            |                                                              |
 | [Writing a Memory Allocator](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/) | 2020-12-15 |                         |            |                                                              |
 | [《SQL必知必会》](https://book.douban.com/subject/24250054/) | 2020-12-01 | `SQL`                   |            | SQL基础语法入门。                                            |
+| [HTTP/2 for Go - Brad Fitzpatrick - Go Devroom FOSDEM 2015](https://www.youtube.com/watch?v=gAfoLwog_MA) | 2020-12-16 | `Go` `HTTP/2`           |            | Brad Fitzpatrick（Golang net/http主要作者）介绍HTTP/2。      |
+
+
+
+## 杂项
+
+
+
+- Redis命令：
+  - [Redis有序集合](http://redisdoc.com/sorted_set/index.html)
 
 
 
