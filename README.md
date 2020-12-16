@@ -25,8 +25,9 @@
 | [HTTP/2 for Go - Brad Fitzpatrick - Go Devroom FOSDEM 2015](https://www.youtube.com/watch?v=gAfoLwog_MA) | 2020-12-16 | `Go` `HTTP/2`           |            | Brad Fitzpatrick（Golang net/http主要作者）介绍HTTP/2。      |
 | [Simple Awk Tutorial - harvard.edu](http://www.hcs.harvard.edu/~dholland/computers/awk.html) | 2020-12-16 | `Linux`                 |            | `awk`的简单入门                                              |
 | [awk入门教程 by 阮一峰](https://www.ruanyifeng.com/blog/2018/11/awk.html) | 2020-12-16 | `Linux`                 | 2020-12-16 | `awk`的简单入门教程                                          |
-| [Why you should learn just a little Awk: An Awk tutorial by Example](https://www.ruanyifeng.com/blog/2018/11/awk.html) | 2020-12-16 | `Linux`                 |            |                                                              |
+| [Why you should learn just a little Awk: An Awk tutorial by Example](https://gregable.com/2010/09/why-you-should-know-just-little-awk.html) | 2020-12-16 | `Linux`                 |            |                                                              |
 | [30 Examples For Awk Command In Text Processing](https://likegeeks.com/awk-command/) | 2020-12-16 | `Linux`                 |            |                                                              |
+| [SSH教程](https://wangdoc.com/ssh/index.html)                | 2020-12-16 | `Linux`                 |            | 阮一峰写的SSH教程                                            |
 
 
 
