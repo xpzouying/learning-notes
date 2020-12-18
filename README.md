@@ -28,6 +28,12 @@
 | [Why you should learn just a little Awk: An Awk tutorial by Example](https://gregable.com/2010/09/why-you-should-know-just-little-awk.html) | 2020-12-16 | `Linux`                 |            |                                                              |
 | [30 Examples For Awk Command In Text Processing](https://likegeeks.com/awk-command/) | 2020-12-16 | `Linux`                 |            |                                                              |
 | [SSH教程](https://wangdoc.com/ssh/index.html)                | 2020-12-16 | `Linux`                 |            | 阮一峰写的SSH教程                                            |
+| [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)_ | 2020-12-18 | `Golang`                |            | `[为什么这么设计](https://draveness.me/tags/为什么这么设计)` |
+| [Go语言设计与实现](https://draveness.me/golang/)             | 2020-12-18 | `Golang`                |            | 面向信仰编程的系列文章                                       |
+| [调度系统设计精要](https://draveness.me/system-design-scheduler/) | 2020-12-18 | `Golang`                |            | `面向信仰编程`                                               |
+| [为什么 NUMA 会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/) | 2020-12-18 | `Golang` `OS`           |            | `面向信仰编程`                                               |
+| [为什么CPU访问硬盘很慢](https://draveness.me/whys-the-design-cpu-and-disk/) | 2020-12-18 | `OS`                    |            | `面向信仰编程`                                               |
+| [Google code review / Best Practice](https://google.github.io/eng-practices/review/) | 2020-12-18 | `Code Review`           |            |                                                              |
 
 
 
