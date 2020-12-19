@@ -34,6 +34,7 @@
 | [为什么 NUMA 会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/) | 2020-12-18 | `Golang` `OS`           |            | `面向信仰编程`                                               |
 | [为什么CPU访问硬盘很慢](https://draveness.me/whys-the-design-cpu-and-disk/) | 2020-12-18 | `OS`                    |            | `面向信仰编程`                                               |
 | [Google code review / Best Practice](https://google.github.io/eng-practices/review/) | 2020-12-18 | `Code Review`           |            |                                                              |
+| [计算机教育中缺失的一课](https://missing-semester-cn.github.io) | 2020-12-19 | `Linux`                 |            |                                                              |
 
 
 
