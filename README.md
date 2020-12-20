@@ -55,7 +55,9 @@
 
   里面包含了很多好文章。
 
+- [git bisect命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
 
+  `git bisect`查找哪一次的代码提交引入了错误。
 
 ## 问题
 
