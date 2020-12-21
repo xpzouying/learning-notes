@@ -63,8 +63,12 @@
 
     `git bisect`查找哪一次的代码提交引入了错误。
 
-  - [版本控制(Git)](https://missing-semester-cn.github.io/2020/version-control/) - 计算机教育中缺失的一课 - Git
+    - [x] `20201220`
 
+  - [版本控制(Git)](https://missing-semester-cn.github.io/2020/version-control/) - 计算机教育中缺失的一课 - Git
+  
+    - [x] `20201221`
+  
   
 
 ## 问题
