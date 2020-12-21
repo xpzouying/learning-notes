@@ -35,6 +35,8 @@
 | [为什么CPU访问硬盘很慢](https://draveness.me/whys-the-design-cpu-and-disk/) | 2020-12-18 | `OS`                    |            | `面向信仰编程`                                               |
 | [Google code review / Best Practice](https://google.github.io/eng-practices/review/) | 2020-12-18 | `Code Review`           |            |                                                              |
 | [计算机教育中缺失的一课](https://missing-semester-cn.github.io) | 2020-12-19 | `Linux`                 |            |                                                              |
+| [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) | 2020-12-21 | `Git`                   |            | 如何编写 [良好的提交信息](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) |
+| [Pro Git 中文版](https://git-scm.com/book/zh/v2)             | 2020-12-21 | `Git`                   |            | Pro Git中文版本，强烈推荐。                                  |
 
 
 
@@ -55,9 +57,15 @@
 
   里面包含了很多好文章。
 
-- [git bisect命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
+- Git相关
 
-  `git bisect`查找哪一次的代码提交引入了错误。
+  - [git bisect命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
+
+    `git bisect`查找哪一次的代码提交引入了错误。
+
+  - [版本控制(Git)](https://missing-semester-cn.github.io/2020/version-control/) - 计算机教育中缺失的一课 - Git
+
+  
 
 ## 问题
 
