@@ -37,6 +37,10 @@
 | [计算机教育中缺失的一课](https://missing-semester-cn.github.io) | 2020-12-19 | `Linux`                 |            |                                                              |
 | [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) | 2020-12-21 | `Git`                   |            | 如何编写 [良好的提交信息](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) |
 | [Pro Git 中文版](https://git-scm.com/book/zh/v2)             | 2020-12-21 | `Git`                   |            | Pro Git中文版本，强烈推荐。                                  |
+| [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) | 2020-12-21 | `-`                     |            | 提问的智慧 中文版                                            |
+| [What do 'real', 'user' and 'sys' mean in the output of time(1)?](https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1) | 2020-12-22 | `Linux`                 |            | `time`命令中的`real`、`user`、`sys`的意思                    |
+| [系统调用Wiki - System Call](https://en.wikipedia.org/wiki/System_call) | 2020-12-22 | `Linux` `OS`            |            | 操作系统的系统调用wiki                                       |
+| [《ClickHouse SQL语法》](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) | 2020-12-22 | `ClickHouse`            |            | 阅读：SQL语法[¶](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) |
 
 
 
@@ -67,7 +71,7 @@
 
   - [版本控制(Git)](https://missing-semester-cn.github.io/2020/version-control/) - 计算机教育中缺失的一课 - Git
   
-    - [x] `20201221`
+      - [x] `20201221`
   
   
 
