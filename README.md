@@ -41,6 +41,7 @@
 | [What do 'real', 'user' and 'sys' mean in the output of time(1)?](https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1) | 2020-12-22 | `Linux`                 |                | `time`命令中的`real`、`user`、`sys`的意思                    |
 | [系统调用Wiki - System Call](https://en.wikipedia.org/wiki/System_call) | 2020-12-22 | `Linux` `OS`            |                | 操作系统的系统调用wiki                                       |
 | [《ClickHouse SQL语法》](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) | 2020-12-22 | `ClickHouse`            |                | 阅读：SQL语法[¶](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) |
+| [The Go Memory Model](https://golang.org/ref/mem)            | 2020-12-24 | `Go`                    |                | 官方Go语言模型                                               |
 
 
 
