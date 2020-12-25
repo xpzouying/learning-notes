@@ -42,6 +42,11 @@
 | [系统调用Wiki - System Call](https://en.wikipedia.org/wiki/System_call) | 2020-12-22 | `Linux` `OS`            |                | 操作系统的系统调用wiki                                       |
 | [《ClickHouse SQL语法》](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) | 2020-12-22 | `ClickHouse`            |                | 阅读：SQL语法[¶](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) |
 | [The Go Memory Model](https://golang.org/ref/mem)            | 2020-12-24 | `Go`                    |                | 官方Go语言模型                                               |
+| [Disaster Recovery for Multi-Region Kafka at Uber](https://eng.uber.com/kafka/) | 2020-12-24 | `Kafka`                 |                | Uber Kafka的容灾实验                                         |
+| [天池中间件大赛 dubboMesh 优化总结（qps 从 1000 到 6850）](https://www.cnkirito.moe/dubboMesh/) | 2020-12-24 | `Go`                    |                | 1、[天池中间件大赛Golang版Service Mesh思路分享](https://juejin.cn/post/6844903648913276941) 2、[天池中间件大赛——单机百万消息队列存储分享](https://juejin.cn/post/6844903650721005575) |
+| [与程序员相关的CPU缓存知识](https://coolshell.cn/articles/20793.html) | 2020-12-24 | `OS`                    |                |                                                              |
+| [浅谈在代理环境中的 DNS 解析行为](https://blog.skk.moe/post/what-happend-to-dns-in-proxy/) | 2020-12-25 | `Network`               |                |                                                              |
+| [Golang Stackcheck](https://staticcheck.io/docs/)            | 2020-12-25 | `Go`                    |                | Golang lint的静态检查                                        |
 
 
 
