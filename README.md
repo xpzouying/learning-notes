@@ -21,7 +21,7 @@
 | [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/) | 20201215 | `Docker`                |                | `docker compose`入门                                         |
 | [Writing a Pool Allocator](http://dmitrysoshnikov.com/compilers/writing-a-pool-allocator/) | 20201215 |                         |                |                                                              |
 | [Writing a Memory Allocator](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/) | 20201215 |                         |                |                                                              |
-| [《SQL必知必会》](https://book.douban.com/subject/24250054/) | 20201201 | `SQL`                   |                | SQL基础语法入门。                                            |
+| [《SQL必知必会》](https://book.douban.com/subject/24250054/) | 20201201 | `SQL`                   | 20210102 | SQL基础语法入门。                                            |
 | [HTTP/2 for Go - Brad Fitzpatrick - Go Devroom FOSDEM 2015](https://www.youtube.com/watch?v=gAfoLwog_MA) | 20201216 | `Go` `HTTP/2`           |                | Brad Fitzpatrick（Golang net/http主要作者）介绍HTTP/2。      |
 | [Simple Awk Tutorial - harvard.edu](http://www.hcs.harvard.edu/~dholland/computers/awk.html) | 20201216 | `Linux`                 |                | `awk`的简单入门                                              |
 | [awk入门教程 by 阮一峰](https://www.ruanyifeng.com/blog/2018/11/awk.html) | 20201216 | `Linux`                 | 20201216     | `awk`的简单入门教程                                          |
