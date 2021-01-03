@@ -28,7 +28,7 @@
 | [Why you should learn just a little Awk: An Awk tutorial by Example](https://gregable.com/2010/09/why-you-should-know-just-little-awk.html) | 20201216 | `Linux`                 |                |                                                              |
 | [30 Examples For Awk Command In Text Processing](https://likegeeks.com/awk-command/) | 20201216 | `Linux`                 |                |                                                              |
 | [SSH教程](https://wangdoc.com/ssh/index.html)                | 20201216 | `Linux`                 |                | 阮一峰写的SSH教程                                            |
-| [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)_ | 20201218 | `Golang`                |                | `[为什么这么设计](https://draveness.me/tags/为什么这么设计)` |
+| [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)_ | 20201218 | `Golang`                |                | [为什么这么设计](https://draveness.me/tags/为什么这么设计) 系列文章 |
 | [Go语言设计与实现](https://draveness.me/golang/)             | 20201218 | `Golang`                |                | 面向信仰编程的系列文章                                       |
 | [调度系统设计精要](https://draveness.me/system-design-scheduler/) | 20201218 | `Golang`                |                | `面向信仰编程`                                               |
 | [为什么 NUMA 会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/) | 20201218 | `Golang` `OS`           |                | `面向信仰编程`                                               |
@@ -49,6 +49,7 @@
 | [Golang Stackcheck](https://staticcheck.io/docs/)            | 20201225 | `Go`                    | 20201226     | Golang lint的静态检查。其中一些检查可以作为平时编码时的最佳实践。 |
 | [GO编程模式](https://coolshell.cn/articles/21128.html) | 20201226 | `Go` |  | `COOLSHELL` 陈皓 左耳耗子写的Go编程模式 |
 | [漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://medium.com/@TachyonDevel/%E6%BC%AB%E8%B0%88%E5%90%84%E7%A7%8D%E9%BB%91%E7%A7%91%E6%8A%80%E5%BC%8F-dns-%E6%8A%80%E6%9C%AF%E5%9C%A8%E4%BB%A3%E7%90%86%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8-62c50e58cbd0) | 20201226 | `GFW` `Network` | 20201228 | `v2ray`里面的各种高级配置说明。主要说明了各种代理和非代理的请求是怎么运转的，从DNS到最后代理的工作流程。 |
+| [Computer Systems - CMU官网](http://csapp.cs.cmu.edu/) | 20210103 | `OS` |  | [深入理解计算机系统](https://book.douban.com/subject/26912767/) |
 
 
 
