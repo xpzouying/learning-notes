@@ -51,6 +51,7 @@
 | [漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://medium.com/@TachyonDevel/%E6%BC%AB%E8%B0%88%E5%90%84%E7%A7%8D%E9%BB%91%E7%A7%91%E6%8A%80%E5%BC%8F-dns-%E6%8A%80%E6%9C%AF%E5%9C%A8%E4%BB%A3%E7%90%86%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8-62c50e58cbd0) | 20201226 | `GFW` `Network` | 20201228 | `v2ray`里面的各种高级配置说明。主要说明了各种代理和非代理的请求是怎么运转的，从DNS到最后代理的工作流程。 |
 | [Computer Systems - CMU官网](http://csapp.cs.cmu.edu/) | 20210103 | `OS` |  | [深入理解计算机系统](https://book.douban.com/subject/26912767/) |
 | [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4) | 20210103 | `React` | | 10小时学会React |
+| [fatih](https://github.com/fatih)/**[vim-go-tutorial](https://github.com/fatih/vim-go-tutorial)** | 20210103 | `vim` | 20210103 | `vim-go`作者写的vim上面Golang开发的教程。如果`vim`是你的主要编辑器，推荐阅读。 |
 
 
 
