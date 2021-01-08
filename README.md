@@ -53,6 +53,7 @@
 | [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4) | 20210103 | `React` | | 10小时学会React |
 | [fatih](https://github.com/fatih)/**[vim-go-tutorial](https://github.com/fatih/vim-go-tutorial)** | 20210103 | `vim` | 20210103 | `vim-go`作者写的vim上面Golang开发的教程。如果`vim`是你的主要编辑器，推荐阅读。 |
 | [InterfaceSlice](https://github.com/golang/go/wiki/InterfaceSlice) | 20210108 | `Go` |  | Golang中`[]interface{}`的介绍。 |
+| [golang/gob](https://blog.golang.org/gob) | 20210108 | `Go` |  |  |
 
 
 
