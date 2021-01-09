@@ -54,6 +54,7 @@
 | [fatih](https://github.com/fatih)/**[vim-go-tutorial](https://github.com/fatih/vim-go-tutorial)** | 20210103 | `vim` | 20210103 | `vim-go`作者写的vim上面Golang开发的教程。如果`vim`是你的主要编辑器，推荐阅读。 |
 | [InterfaceSlice](https://github.com/golang/go/wiki/InterfaceSlice) | 20210108 | `Go` |  | Golang中`[]interface{}`的介绍。 |
 | [golang/gob](https://blog.golang.org/gob) | 20210108 | `Go` |  |  |
+| [Ceph](ceph.io) | 20210109 | `Ceph` | | 找时间要学习一下Ceph |
 
 
 
