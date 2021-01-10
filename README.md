@@ -10,7 +10,7 @@
 | ------------------------------------------------------------ | ---------- | ----------------------- | -------------- | ------------------------------------------------------------ |
 | [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors) | 20201214 | `Go`                    | 20201214     | 学习了`errors wrap`。                                        |
 | [clickhouse官方教程](https://clickhouse.tech/docs/zh/)       | 20201215 | `Clickhouse`            |                | Clickhouse官方教程。有示例数据。                             |
-| [Beej's Guide to Network Programming简体中文版](https://beej-zhcn.netdpi.net/) | 20201215 | `网络编程`              | 20201221开始 | 该书中介绍的有`SO_REUSEADDR`等复用技术。                     |
+| [Beej's Guide to Network Programming简体中文版](https://beej-zhcn.netdpi.net/) | 20201215 | `网络编程`              | 20201221<br />20210110 | 该书中介绍的有`SO_REUSEADDR`等复用技术。                     |
 | [How To Use the AWK language to Manipulate Text in Linux](https://www.digitalocean.com/community/tutorials/how-to-use-the-awk-language-to-manipulate-text-in-linux) | 20201215 | `Linux`                 |                | 学习AWK。                                                    |
 | [Why is fasthttp faster than net/http?](https://stackoverflow.com/questions/41627931/why-is-fasthttp-faster-than-net-http) | 20201215 | `Go` `fasthttp`         |                | `fasthttp`为什么会快？评论中有人表示怀疑。                   |
 | [fasthttp Issue #144: HTTP/2 support](https://github.com/valyala/fasthttp/issues/144) | 20201215 | `Go` `fasthttp`         | 20201215     | `fasthttp`不支持`HTTP/2`，然而HTTP/2中有很多重要的特性：<br />1.Single Connection；2.Multiplexing；3.Header Compress；4.Server Push；5.Request Priority Levels |
