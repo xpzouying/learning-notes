@@ -56,6 +56,7 @@
 | [golang/gob](https://blog.golang.org/gob) | 20210108 | `Go` |  |  |
 | [Ceph](ceph.io) | 20210109 | `Ceph` | | 找时间要学习一下Ceph |
 | [Wireguard](https://www.wireguard.com/) | 20210109 |  | |  |
+| [Socket Programming](http://www.troubleshooters.com/codecorn/sockets/) | 20210114 | `Socket` | | The 10% you need -- for 90% of your work |
 
 
 
