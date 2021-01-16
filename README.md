@@ -60,6 +60,7 @@
 | [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works/) | 20210116 | `NETWOR` | |  |
 | [How Tailscale works](https://tailscale.com/blog/how-tailscale-works/) | 20210116 | `NETWOR` | |  |
 | [tailscale/tailscale](https://github.com/tailscale/tailscale) | 20210116 | `Go` | |  |
+| [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | |  |
 
 
 
