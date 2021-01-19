@@ -9,7 +9,7 @@
 | 文章                                                         | 添加日期   | 类型                    | 完成           | 备注                                                         |
 | ------------------------------------------------------------ | ---------- | ----------------------- | -------------- | ------------------------------------------------------------ |
 | [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors) | 20201214 | `Go`                    | 20201214     | 学习了`errors wrap`。                                        |
-| [clickhouse官方教程](https://clickhouse.tech/docs/zh/)       | 20201215 | `Clickhouse`            |                | Clickhouse官方教程。有示例数据。                             |
+| [ClickHouse官方教程](https://clickhouse.tech/docs/zh/)       | 20201215 | `Clickhouse`            |                | Clickhouse官方教程。有示例数据。                             |
 | [Beej's Guide to Network Programming简体中文版](https://beej-zhcn.netdpi.net/) | 20201215 | `网络编程`              | 20200115 | 该书中介绍的有`SO_REUSEADDR`等复用技术。                     |
 | [How To Use the AWK language to Manipulate Text in Linux](https://www.digitalocean.com/community/tutorials/how-to-use-the-awk-language-to-manipulate-text-in-linux) | 20201215 | `Linux`                 |                | 学习AWK。                                                    |
 | [Why is fasthttp faster than net/http?](https://stackoverflow.com/questions/41627931/why-is-fasthttp-faster-than-net-http) | 20201215 | `Go` `fasthttp`         |                | `fasthttp`为什么会快？评论中有人表示怀疑。                   |
@@ -61,6 +61,8 @@
 | [How Tailscale works](https://tailscale.com/blog/how-tailscale-works/) | 20210116 | `NETWOR` | |  |
 | [tailscale/tailscale](https://github.com/tailscale/tailscale) | 20210116 | `Go` | |  |
 | [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | | 完成`连载0` `连载1` |
+| [golang.org/x/sync/errgroup](https://godoc.org/golang.org/x/sync/errgroup) | 20210119 | `Go` | |  |
+| [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
 
 
 
