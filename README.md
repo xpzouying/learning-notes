@@ -60,7 +60,7 @@
 | [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works/) | 20210116 | `NETWOR` | |  |
 | [How Tailscale works](https://tailscale.com/blog/how-tailscale-works/) | 20210116 | `NETWOR` | |  |
 | [tailscale/tailscale](https://github.com/tailscale/tailscale) | 20210116 | `Go` | |  |
-| [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | | 完成`连载0` `连载1` |
+| [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | | 完成`连载0` `连载1` `连载2` `连载3` |
 | [golang.org/x/sync/errgroup](https://godoc.org/golang.org/x/sync/errgroup) | 20210119 | `Go` | |  |
 | [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
 
