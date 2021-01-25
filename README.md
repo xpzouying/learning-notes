@@ -33,6 +33,7 @@
 | [调度系统设计精要](https://draveness.me/system-design-scheduler/) | 20201218 | `Golang`                |                | `面向信仰编程`                                               |
 | [为什么 NUMA 会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/) | 20201218 | `Golang` `OS`           |                | `面向信仰编程`                                               |
 | [为什么CPU访问硬盘很慢](https://draveness.me/whys-the-design-cpu-and-disk/) | 20201218 | `OS`                    | 20200125 | `面向信仰编程`                                               |
+| [为什么Linux需要虚拟内存](https://draveness.me/whys-the-design-os-virtual-memory/) | 20200125 |  |  | `面向信仰编程` |
 | [Google code review / Best Practice](https://google.github.io/eng-practices/review/) | 20201218 | `Code Review`           |                |                                                              |
 | [计算机教育中缺失的一课](https://missing-semester-cn.github.io) | 20201219 | `Linux`                 |                |                                                              |
 | [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) | 20201221 | `Git`                   |                | 如何编写 [良好的提交信息](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) |
