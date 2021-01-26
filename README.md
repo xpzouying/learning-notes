@@ -97,8 +97,10 @@
   - [版本控制(Git)](https://missing-semester-cn.github.io/2020/version-control/) - 计算机教育中缺失的一课 - Git
   
       - [x] `20201221`
-  
-  
+
+- `vim`
+  - [You don’t need more than one cursor in vim](https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db) - 介绍了在vim中实现`多光标修改`。
+    `cgn` `gn`
 
 ## 问题
 
@@ -123,7 +125,6 @@
 - [x] 深入剖析Kubernetes
   - 状态：完成到《14丨深入解析Pod对象（一）：基本概念》
   - 说明：暂停。后续主要讲解Kubernetes的细节问题，未来进入到Kubernetes实际使用后再学习。
-
 - [ ] 左耳听风
 - [ ] 朱赟的技术管理课
 - [ ] 王争 - 《数据结构与算法之美》
