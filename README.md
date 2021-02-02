@@ -65,6 +65,7 @@
 | [golang.org/x/sync/errgroup](https://godoc.org/golang.org/x/sync/errgroup) | 20210119 | `Go` | 20210124 | 完成，且完成模仿：[xpzouying/gofake](https://github.com/xpzouying/gofake) |
 | [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
 | [Welcome to learn Talent Plan Courses!](https://github.com/pingcap/talent-plan) | 20210127 |  | | `PingCAP` 分布式的开源课程。 |
+| [English level up tips for Chinese](https://byoungd.gitbook.io/english-level-up-tips/) | 20210202 | `English` | |  |
 
 
 
