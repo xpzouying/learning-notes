@@ -66,6 +66,7 @@
 | [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
 | [Welcome to learn Talent Plan Courses!](https://github.com/pingcap/talent-plan) | 20210127 |  | | `PingCAP` 分布式的开源课程。 |
 | [English level up tips for Chinese](https://byoungd.gitbook.io/english-level-up-tips/) | 20210202 | `English` | |  |
+| [My Third Year as a Solo Developer](https://mtlynch.io/solo-developer-year-3/) | 20210203 | `blog` | | [Michael Lynch](https://mtlynch.io/) - 分享第三年作为独立开发者的总结 |
 
 
 
