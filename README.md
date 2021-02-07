@@ -68,6 +68,7 @@
 | [English level up tips for Chinese](https://byoungd.gitbook.io/english-level-up-tips/) | 20210202 | `English` | |  |
 | [My Third Year as a Solo Developer](https://mtlynch.io/solo-developer-year-3/) | 20210203 | `blog` | 20210204 | [Michael Lynch](https://mtlynch.io/) - 分享第三年作为独立开发者的总结 |
 | https://stripe.com/docs/api | 20210204 | `API` | | Stripe |
+| [面试中 LRU / LFU 的青铜与王者](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/LRU:LFU_interview.md) | 20210207 | `lru` | |  |
 
 
 
