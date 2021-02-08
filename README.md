@@ -70,6 +70,7 @@
 | https://stripe.com/docs/api | 20210204 | `API` | | Stripe |
 | [面试中 LRU / LFU 的青铜与王者](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/LRU:LFU_interview.md) | 20210207 | `lru` | |  |
 | [性能测试入门指南](http://www.ontheway.cool/posts/38522.html) | 20210208 |  | |  |
+| [Go channel 的妙用](https://mp.weixin.qq.com/s?__biz=MjM5MDUwNTQwMQ==&mid=2257484842&idx=1&sn=328c9908b500278038c3ebdc87e46678&scene=21#wechat_redirect) | 20210208 | `Go` | 20210208 | 需要扩展学习sql源码，了解sql连接池的一些使用。 |
 
 
 
