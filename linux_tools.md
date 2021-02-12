@@ -100,12 +100,22 @@ crontab的命令示例如下，
 
 我使用的设备为：
 1. Macbook Pro：安装`iperf3`。
+
+   ```bash
+   brew install iperf3
+   ```
+
 2. iPad Pro：安装`he.net - Network Tools`。
+
+3. Ubuntu：使用`apt`安装：
+
+   ```bash
+   sudo apt install iperf3
+   ```
 
 其他平台的支持见：
 
 - [iperf download page](https://iperf.fr/iperf-download.php)
-
 
 **2、测试**
 
