@@ -58,7 +58,7 @@
 | [Ceph](ceph.io) | 20210109 | `Ceph` | | 找时间要学习一下Ceph |
 | [Wireguard](https://www.wireguard.com/) | 20210109 |  | |  |
 | [Socket Programming](http://www.troubleshooters.com/codecorn/sockets/) | 20210114 | `Socket` | | The 10% you need -- for 90% of your work |
-| [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | | 完成`连载0` `连载1` `连载2` `连载3` |
+| [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | 20210214 | 最重要的技能是：「阅读」，「写作」，「算术」，再加上「说服力」，也就是沟通能力，再加上「编程」。 |
 | [golang.org/x/sync/errgroup](https://godoc.org/golang.org/x/sync/errgroup) | 20210119 | `Go` | 20210124 | 完成，且完成模仿：[xpzouying/gofake](https://github.com/xpzouying/gofake) |
 | [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
 | [Welcome to learn Talent Plan Courses!](https://github.com/pingcap/talent-plan) | 20210127 |  | | `PingCAP` 分布式的开源课程。 |
