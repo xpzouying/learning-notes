@@ -58,9 +58,6 @@
 | [Ceph](ceph.io) | 20210109 | `Ceph` | | 找时间要学习一下Ceph |
 | [Wireguard](https://www.wireguard.com/) | 20210109 |  | |  |
 | [Socket Programming](http://www.troubleshooters.com/codecorn/sockets/) | 20210114 | `Socket` | | The 10% you need -- for 90% of your work |
-| [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works/) | 20210116 | `NETWOR` | |  |
-| [How Tailscale works](https://tailscale.com/blog/how-tailscale-works/) | 20210116 | `NETWOR` | |  |
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | 20210116 | `Go` | |  |
 | [超过4万转发，12万赞的Twitter 风暴《如何致富》 译文连载](https://mp.weixin.qq.com/s/OFEiBnNJI-Uarz47i4qMQA) | 20210116 | `Other` | | 完成`连载0` `连载1` `连载2` `连载3` |
 | [golang.org/x/sync/errgroup](https://godoc.org/golang.org/x/sync/errgroup) | 20210119 | `Go` | 20210124 | 完成，且完成模仿：[xpzouying/gofake](https://github.com/xpzouying/gofake) |
 | [图解HTTP](https://book.douban.com/subject/25863515/) | 20210119 | `Book` `Network` | |  |
