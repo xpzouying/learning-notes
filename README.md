@@ -48,7 +48,7 @@
 | [与程序员相关的CPU缓存知识](https://coolshell.cn/articles/20793.html) | 20201224 | `OS`                    |                |                                                              |
 | [浅谈在代理环境中的 DNS 解析行为](https://blog.skk.moe/post/what-happend-to-dns-in-proxy/) | 20201225 | `Network`               |                |                                                              |
 | [Golang Stackcheck](https://staticcheck.io/docs/)            | 20201225 | `Go`                    | 20201226     | Golang lint的静态检查。其中一些检查可以作为平时编码时的最佳实践。 |
-| [GO编程模式](https://coolshell.cn/articles/21128.html) | 20201226 | `Go` |  | `COOLSHELL` 陈皓 左耳耗子写的Go编程模式 |
+| [GO编程模式](https://coolshell.cn/articles/21128.html) | 20201226 | `Go` | 202010214 | `COOLSHELL` 陈皓 左耳耗子写的Go编程模式 |
 | [漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://medium.com/@TachyonDevel/%E6%BC%AB%E8%B0%88%E5%90%84%E7%A7%8D%E9%BB%91%E7%A7%91%E6%8A%80%E5%BC%8F-dns-%E6%8A%80%E6%9C%AF%E5%9C%A8%E4%BB%A3%E7%90%86%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8-62c50e58cbd0) | 20201226 | `GFW` `Network` | 20201228 | `v2ray`里面的各种高级配置说明。主要说明了各种代理和非代理的请求是怎么运转的，从DNS到最后代理的工作流程。 |
 | [Computer Systems - CMU官网](http://csapp.cs.cmu.edu/) | 20210103 | `OS` |  | [深入理解计算机系统](https://book.douban.com/subject/26912767/) |
 | [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4) | 20210103 | `React` | | 10小时学会React |
@@ -68,6 +68,7 @@
 | [面试中 LRU / LFU 的青铜与王者](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/LRU:LFU_interview.md) | 20210207 | `lru` | |  |
 | [性能测试入门指南](http://www.ontheway.cool/posts/38522.html) | 20210208 |  | |  |
 | [Go channel 的妙用](https://mp.weixin.qq.com/s?__biz=MjM5MDUwNTQwMQ==&mid=2257484842&idx=1&sn=328c9908b500278038c3ebdc87e46678&scene=21#wechat_redirect) | 20210208 | `Go` | 20210208 | 需要扩展学习sql源码，了解sql连接池的一些使用。 |
+| [Uber Go 语言编码规范](https://github.com/xxjwxc/uber_go_guide_cn) | 20210215 | `Go` |  |  |
 
 ## 杂项
 
