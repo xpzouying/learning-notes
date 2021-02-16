@@ -69,6 +69,8 @@
 | [性能测试入门指南](http://www.ontheway.cool/posts/38522.html) | 20210208 |  | |  |
 | [Go channel 的妙用](https://mp.weixin.qq.com/s?__biz=MjM5MDUwNTQwMQ==&mid=2257484842&idx=1&sn=328c9908b500278038c3ebdc87e46678&scene=21#wechat_redirect) | 20210208 | `Go` | 20210208 | 需要扩展学习sql源码，了解sql连接池的一些使用。 |
 | [Uber Go 语言编码规范](https://github.com/xxjwxc/uber_go_guide_cn) | 20210215 | `Go` |  |  |
+| [无锁队列的实现](https://coolshell.cn/articles/8239.html) | 20210217 | `数据结构` |  |  |
+| [无锁HASHMAP的原理与实现](https://coolshell.cn/articles/9703.html) | 20210217 | `数据结构` |  |  |
 
 ## 杂项
 
