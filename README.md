@@ -44,7 +44,7 @@
 | [《ClickHouse SQL语法》](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) | 20201222 | `ClickHouse`            |                | 阅读：SQL语法[¶](https://clickhouse.tech/docs/zh/sql-reference/syntax/#syntax) |
 | [The Go Memory Model](https://golang.org/ref/mem)            | 20201224 | `Go`                    |                | 官方Go语言模型                                               |
 | [Disaster Recovery for Multi-Region Kafka at Uber](https://eng.uber.com/kafka/) | 20201224 | `Kafka`                 |                | Uber Kafka的容灾实验                                         |
-| [天池中间件大赛 dubboMesh 优化总结（qps 从 1000 到 6850）](https://www.cnkirito.moe/dubboMesh/) | 20201224 | `Go`                    |                | 1、[天池中间件大赛Golang版Service Mesh思路分享](https://juejin.cn/post/6844903648913276941) 2、[天池中间件大赛——单机百万消息队列存储分享](https://juejin.cn/post/6844903650721005575) |
+| [天池中间件大赛 dubboMesh 优化总结（qps 从 1000 到 6850）](https://www.cnkirito.moe/dubboMesh/) | 20201224 | `Go`                    | 20210217 | 1、[天池中间件大赛Golang版Service Mesh思路分享](https://juejin.cn/post/6844903648913276941) 2、[天池中间件大赛——单机百万消息队列存储分享](https://juejin.cn/post/6844903650721005575) |
 | [与程序员相关的CPU缓存知识](https://coolshell.cn/articles/20793.html) | 20201224 | `OS`                    |                |                                                              |
 | [浅谈在代理环境中的 DNS 解析行为](https://blog.skk.moe/post/what-happend-to-dns-in-proxy/) | 20201225 | `Network`               |                |                                                              |
 | [Golang Stackcheck](https://staticcheck.io/docs/)            | 20201225 | `Go`                    | 20201226     | Golang lint的静态检查。其中一些检查可以作为平时编码时的最佳实践。 |
@@ -71,6 +71,7 @@
 | [Uber Go 语言编码规范](https://github.com/xxjwxc/uber_go_guide_cn) | 20210215 | `Go` |  |  |
 | [无锁队列的实现](https://coolshell.cn/articles/8239.html) | 20210217 | `数据结构` |  |  |
 | [无锁HASHMAP的原理与实现](https://coolshell.cn/articles/9703.html) | 20210217 | `数据结构` |  |  |
+| [百万 Go TCP 连接的思考: epoll方式减少资源占用](https://colobu.com/2019/02/23/1m-go-tcp-connection/) | 20210218 | `Go` | | |
 
 ## 杂项
 
