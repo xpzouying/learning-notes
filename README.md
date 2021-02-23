@@ -72,6 +72,7 @@
 | [无锁队列的实现](https://coolshell.cn/articles/8239.html) | 20210217 | `数据结构` |  |  |
 | [无锁HASHMAP的原理与实现](https://coolshell.cn/articles/9703.html) | 20210217 | `数据结构` |  |  |
 | [百万 Go TCP 连接的思考: epoll方式减少资源占用](https://colobu.com/2019/02/23/1m-go-tcp-connection/) | 20210218 | `Go` | | |
+| [为什么 Telegram 不默认开启端对端加密？](https://www.jianshu.com/p/55bc36789ce0) | 20210223 | `Other` | 20210223 | TG官方说明当前采用的聊天记录存取方式、端到端加密相关的问题。 |
 
 ## 杂项
 
