@@ -76,6 +76,7 @@
 | [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744) | 20210313 | `公开课` |  |  |
 | [Goroutine 并发调度模型深度解析之手撸一个高性能 goroutine 池](https://strikefreedom.top/high-performance-implementation-of-goroutine-pool) | 20210315 | `Go` | 20210315 | [ants](https://github.com/panjf2000/ants)作者讲解goroutine pool的实现逻辑。 |
 | [图解 \| 深入揭秘 epoll 是如何实现 IO 多路复用的！](https://mp.weixin.qq.com/s/OmRdUgO1guMX76EdZn11UQ) | 20210317 | `Network` |  |  |
+| [程序员的 running page](https://github.com/yihong0618/gitblog/issues/178) | 20210317 | `Life` |  |  |
 
 ## 杂项
 
