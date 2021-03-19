@@ -77,6 +77,7 @@
 | [Goroutine 并发调度模型深度解析之手撸一个高性能 goroutine 池](https://strikefreedom.top/high-performance-implementation-of-goroutine-pool) | 20210315 | `Go` | 20210315 | [ants](https://github.com/panjf2000/ants)作者讲解goroutine pool的实现逻辑。 |
 | [图解 \| 深入揭秘 epoll 是如何实现 IO 多路复用的！](https://mp.weixin.qq.com/s/OmRdUgO1guMX76EdZn11UQ) | 20210317 | `Network` |  |  |
 | [程序员的 running page](https://github.com/yihong0618/gitblog/issues/178) | 20210317 | `Life` |  |  |
+| [欧长坤的2020年总结](https://blog.changkun.de/posts/2020-summary/) | 20210319 | `Life` | 20210319 | 其中文中这段话值得体会：<br />「Being an Indie Hacker is really about the idea that you can achieve your own freedom. Whatever that means to you. Maybe that’s financial freedom, maybe that’s creative freedom so you can work on whatever you want, maybe that’s time freedom so you can work whatever hours and schedule you want. Being an Indie Hacker is really this confidence in yourself. You can create something that’ll make your life better, make other people’s lives better in the process, and give you that freedom. Maybe that looks like raising a ton of money in the future.」 |
 
 ## 杂项
 
