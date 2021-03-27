@@ -10,5 +10,5 @@
   
   另外：新修版本里面有不少情节改动。例如最后的一章中说：慕容复疯癫以后，阿碧和王语嫣都陪在慕容复身边。而三联版本，只有阿碧一个人陪在慕容复身边。
 
-
+- [ ] [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) - 操作系统学习
 
