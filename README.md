@@ -12,3 +12,8 @@
 
 - [ ] [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) - 操作系统学习
 
+
+
+## 代码学习
+
+- [x] [ants](https://github.com/panjf2000/ants) - ants 是一个高性能且低损耗的 goroutine 池
