@@ -12,8 +12,14 @@
 
 - [ ] [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) - 操作系统学习
 
-
+- [ ] [计算机网络课程 - Youtube](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 
 ## 代码学习
 
 - [x] [ants](https://github.com/panjf2000/ants) - ants 是一个高性能且低损耗的 goroutine 池
+
+
+
+## 备注
+
+- [ ] [YouTube 上有哪些计算机方面的值得推荐的公开课？](https://www.zhihu.com/question/49071324) - 知乎上面的回答，如果需要学习的课程，可以到这上面找。
