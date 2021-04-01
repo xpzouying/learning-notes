@@ -17,6 +17,10 @@
 ## 代码学习
 
 - [x] [ants](https://github.com/panjf2000/ants) - ants 是一个高性能且低损耗的 goroutine 池
+- [ ] [gnet](https://github.com/panjf2000/gnet) - gnet 是一个高性能、轻量级、非阻塞的事件驱动 Go 网络框架
+  zy：学习如何完成一个网络框架。
+
+
 
 
 
