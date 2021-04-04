@@ -32,6 +32,6 @@
 | 章节                                                         | 完成时间 | 状态 |
 | ------------------------------------------------------------ | -------- | ---- |
 | [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4 | Done |
-|                                                              |          |      |
+| [6.5 调度器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/) | 2021-4-5 | Done |
 |                                                              |          |      |
 
