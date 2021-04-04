@@ -21,13 +21,17 @@
   zy：学习如何完成一个网络框架。
 
 
-
-
-## leetcode
-
-- [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
-
-
 ## 备注
 
 - [ ] [YouTube 上有哪些计算机方面的值得推荐的公开课？](https://www.zhihu.com/question/49071324) - 知乎上面的回答，如果需要学习的课程，可以到这上面找。
+
+## 学习OKR
+
+### 《Go语言设计与实现》
+
+| 章节                                                         | 完成时间 | 状态 |
+| ------------------------------------------------------------ | -------- | ---- |
+| [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4 | Done |
+|                                                              |          |      |
+|                                                              |          |      |
+
