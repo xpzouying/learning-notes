@@ -29,10 +29,12 @@
 
 ### 《Go语言设计与实现》
 
-| 章节                                                         | 完成时间 | 状态 |
-| ------------------------------------------------------------ | -------- | ---- |
-| [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4 | Done |
-| [6.5 调度器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/) | 2021-4-5 | Done |
-| [6.6 网络轮询器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-netpoller/) | 2021-4-7 | Done |
-| [6.1 上下文Context](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-context/) | 2021-4-8 | Done |
+| 章节                                                         | 完成时间 |
+| ------------------------------------------------------------ | -------- |
+| [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4 |
+| [6.5 调度器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/) | 2021-4-5 |
+| [6.6 网络轮询器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-netpoller/) | 2021-4-7 |
+| [6.1 上下文Context](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-context/) | 2021-4-8 |
+| [3.1 数组](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array/) | 2021-4-9 |
+| [3.2 切片](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array-and-slice/) | 2021-4-9 |
 
