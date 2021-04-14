@@ -14,6 +14,10 @@
 
 - [ ] [计算机网络课程 - Youtube](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 
+## 文章学习
+
+- [x]  [read 文件一个字节实际会发生多大的磁盘IO？](https://mp.weixin.qq.com/s/vekemOfUHBjZSy3uXb49Rw)
+
 ## 代码学习
 
 - [x] [ants](https://github.com/panjf2000/ants) - ants 是一个高性能且低损耗的 goroutine 池
@@ -29,12 +33,14 @@
 
 ### 《Go语言设计与实现》
 
-| 章节                                                         | 完成时间 |
-| ------------------------------------------------------------ | -------- |
-| [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4 |
-| [6.5 调度器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/) | 2021-4-5 |
-| [6.6 网络轮询器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-netpoller/) | 2021-4-7 |
-| [6.1 上下文Context](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-context/) | 2021-4-8 |
-| [3.1 数组](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array/) | 2021-4-9 |
-| [3.2 切片](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array-and-slice/) | 2021-4-9 |
+| 章节                                                         | 完成时间  |
+| ------------------------------------------------------------ | --------- |
+| [4.1函数调用](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-function-call/) | 2021-4-4  |
+| [6.5 调度器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/) | 2021-4-5  |
+| [6.6 网络轮询器](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-netpoller/) | 2021-4-7  |
+| [6.1 上下文Context](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-context/) | 2021-4-8  |
+| [3.1 数组](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array/) | 2021-4-9  |
+| [3.2 切片](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array-and-slice/) | 2021-4-9  |
+| [3.3 哈希表](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-hashmap/) | 2021-4-11 |
+| [3.4 字符串](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-string/) | 2021-4-11 |
 
