@@ -18,7 +18,7 @@
 
 - [x] [read 文件一个字节实际会发生多大的磁盘IO？](https://mp.weixin.qq.com/s/vekemOfUHBjZSy3uXb49Rw)
 
-- [ ] [漫画 | 一台Linux服务器最多能支撑多少个TCP连接？](https://mp.weixin.qq.com/s/Lkyj42NtvqEj63DoCY5btQ)
+- [x] [漫画 | 一台Linux服务器最多能支撑多少个TCP连接？](https://mp.weixin.qq.com/s/Lkyj42NtvqEj63DoCY5btQ)
 
 
 
