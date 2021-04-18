@@ -14,6 +14,8 @@
 
 - [ ] [计算机网络课程 - Youtube](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 
+- [ ] [倚天屠龙记](https://book.douban.com/subject/1070851/)
+
 ## 文章学习
 
 - [x] [read 文件一个字节实际会发生多大的磁盘IO？](https://mp.weixin.qq.com/s/vekemOfUHBjZSy3uXb49Rw)
@@ -27,6 +29,7 @@
 - [x] [ants](https://github.com/panjf2000/ants) - ants 是一个高性能且低损耗的 goroutine 池
 - [ ] [gnet](https://github.com/panjf2000/gnet) - gnet 是一个高性能、轻量级、非阻塞的事件驱动 Go 网络框架
   zy：学习如何完成一个网络框架。
+- [ ] https://github.com/juanfont/headscale
 
 
 ## 备注
