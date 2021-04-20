@@ -50,4 +50,9 @@
 | [3.2 切片](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array-and-slice/) | 2021-4-9  |
 | [3.3 哈希表](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-hashmap/) | 2021-4-11 |
 | [3.4 字符串](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-string/) | 2021-4-11 |
+| [5.1 for和range](https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-for-range/) | 2021-4-20 |
+
+- `interface{}`专题
+  - [Russ Cox - Go Data Structures: Interfaces](https://research.swtch.com/interfaces)
+  - [Go Interfaces](https://www.airs.com/blog/archives/277) - 反复阅读，需要输出自己的理解
 
