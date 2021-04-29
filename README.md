@@ -19,8 +19,8 @@
 ## 文章学习
 
 - [x] [read 文件一个字节实际会发生多大的磁盘IO？](https://mp.weixin.qq.com/s/vekemOfUHBjZSy3uXb49Rw)
-
 - [x] [漫画 | 一台Linux服务器最多能支撑多少个TCP连接？](https://mp.weixin.qq.com/s/Lkyj42NtvqEj63DoCY5btQ)
+- [x] [Standard Go Project Layout](https://github.com/golang-standards/project-layout/blob/master/README_zh.md) - 介绍Go工程的目录如何组织。但Russ Cox评价这个工程示例不是官方推荐的Go的标准。
 
 
 
