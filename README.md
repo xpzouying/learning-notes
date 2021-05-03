@@ -16,6 +16,11 @@
 
 - [ ] [倚天屠龙记](https://book.douban.com/subject/1070851/)
 
+  - [x] 卷1
+  - [x] 卷2
+  - [ ] 卷3
+  - [ ] 卷4
+
 ## 文章学习
 
 - [x] [read 文件一个字节实际会发生多大的磁盘IO？](https://mp.weixin.qq.com/s/vekemOfUHBjZSy3uXb49Rw)
