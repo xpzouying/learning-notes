@@ -20,9 +20,16 @@
   awk '/search_pattern/ { action_to_take_on_matches; another_action; }' file_to_parse
   ```
 
-  
 
-- 
+
+
+### chmod
+
+设置置顶用户对指定文件有写权限：
+
+```bash
+sudo /bin/chmod +a 'user:zy:allow write' /etc/hosts
+```
 
 
 
