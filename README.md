@@ -14,12 +14,14 @@
 
 - [ ] [计算机网络课程 - Youtube](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 
-- [ ] [倚天屠龙记](https://book.douban.com/subject/1070851/)
+- [x] [倚天屠龙记](https://book.douban.com/subject/1070851/)
 
   - [x] 卷1
   - [x] 卷2
-  - [ ] 卷3 - ing
-  - [ ] 卷4
+  - [x] 卷3
+  - [x] 卷4
+  
+- [x] 17 | 为什么CPU结构也会影响Redis的性能？
 
 ## 文章学习
 
