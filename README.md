@@ -47,6 +47,7 @@
 ## 备注
 
 - [ ] [YouTube 上有哪些计算机方面的值得推荐的公开课？](https://www.zhihu.com/question/49071324) - 知乎上面的回答，如果需要学习的课程，可以到这上面找。
+- [ ] [【中英文字幕】CS61C 2020（完结撒花❀）计算机组成原理 20200816](https://www.bilibili.com/video/BV1fC4y147iZ) - 计算机组成原理
 
 ## 学习OKR
 
@@ -68,3 +69,17 @@
   - [Russ Cox - Go Data Structures: Interfaces](https://research.swtch.com/interfaces)
   - [Go Interfaces](https://www.airs.com/blog/archives/277) - 反复阅读，需要输出自己的理解
 
+- Go string vs []byte
+
+  - [golang-string 和 bytes 之间的 unsafe 转换](https://jaycechant.info/2019/golang-unsafe-cast-between-string-and-bytes/)
+- [How to use unsafe get a byte slice from a string without memory copy](https://stackoverflow.com/questions/59209493/how-to-use-unsafe-get-a-byte-slice-from-a-string-without-memory-copy)
+
+
+
+## 日志
+
+
+
+- 20210701
+  - [Go语言中的单例模式](https://www.liwenzhou.com/posts/Go/singleton_in_go/)
+    - 学习了`Check-Lock-Check`模式，也叫`Double Check`模式。`sync.Once`中就是使用了这种模式。
