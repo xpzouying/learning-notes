@@ -72,7 +72,13 @@
 - Go string vs []byte
 
   - [golang-string 和 bytes 之间的 unsafe 转换](https://jaycechant.info/2019/golang-unsafe-cast-between-string-and-bytes/)
-- [How to use unsafe get a byte slice from a string without memory copy](https://stackoverflow.com/questions/59209493/how-to-use-unsafe-get-a-byte-slice-from-a-string-without-memory-copy)
+  - [How to use unsafe get a byte slice from a string without memory copy](https://stackoverflow.com/questions/59209493/how-to-use-unsafe-get-a-byte-slice-from-a-string-without-memory-copy)
+  - [How to efficiently concatenate strings in go](https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go)
+  - [zy] - `strings.Builder`的`Reset()`方法与`bytes.Buffer`的`Reset()`方法不同：
+    - `strings.Builder`只是解除了跟底层数据的绑定关系。[源码](https://golang.org/src/strings/builder.go#L60)
+    - `bytes.Buffer`是复用了底层数据。
+    - 为什么`strings.Builder`不复用底层的数据呢。是因为：`strings.Builder`在做`string`转换的时候做了优化，具体参考：[Why doesn't string.Builder Reset() preserve the underlying buffer?](https://stackoverflow.com/questions/61515086/why-doesn-t-string-builder-reset-preserve-the-underlying-buffer)。它返回出去的字符串，仍然在复用底层的地址。相当于它的优化点在于`String()`函数。
+    - 而`bytes.Buffer`的[String()](https://golang.org/src/bytes/buffer.go?s=2382:2414#L50)是复制一块内存，相当于做了一层内存拷贝。
 
 
 
