@@ -12,3 +12,11 @@
 - [ ] Raft Paper
   - [ ] [In Search of an Understandable Consensus Algorithm (Extended Version)](https://raft.github.io/raft.pdf) - 简化版本的论文
   - [ ] [寻找一种易于理解的一致性算法（扩展版）](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md) - 中文翻译
+
+## 学习笔记
+
+Raft将**一致性问题**分解成3个问题：
+
+1. 领导选举：
+2. 日志复制：
+3. 安全性：
