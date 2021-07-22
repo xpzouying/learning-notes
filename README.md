@@ -89,3 +89,12 @@
 - 20210701
   - [Go语言中的单例模式](https://www.liwenzhou.com/posts/Go/singleton_in_go/)
     - 学习了`Check-Lock-Check`模式，也叫`Double Check`模式。`sync.Once`中就是使用了这种模式。
+
+
+
+## 其他
+
+### 网络相关
+
+- MESH组网
+  - [单线复用组网方式](https://www.bilibili.com/video/av754204424) - 教学如何组MESH：图解、视频、实例教学。
