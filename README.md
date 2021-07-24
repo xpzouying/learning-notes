@@ -101,3 +101,5 @@
   - [单线复用组网方式](https://www.bilibili.com/video/av754204424) - 教学如何组MESH：图解、视频、实例教学。
 
     ![image-20210724235011911](image-20210724235011911.png)
+
+  - [MESH组网：单线复用+VLAN](https://www.bilibili.com/video/BV1SA411E75D) - 增加VLAN的支持，由此可以支持IPTV的接入。
