@@ -103,3 +103,12 @@
     ![image-20210724235011911](image-20210724235011911.png)
 
   - [MESH组网：单线复用+VLAN](https://www.bilibili.com/video/BV1SA411E75D) - 增加VLAN的支持，由此可以支持IPTV的接入。
+
+  - [MESH组网方案全集（有线回程，无线回程，AP模式，单线复用）](https://zhuanlan.zhihu.com/p/352135931) - 知乎文章
+
+  - [家庭网络设置](https://www.bilibili.com/video/BV1Bt4y1v7Lk)
+
+    - 光猫切换成桥接模式。
+    - 路由器放置到房间的正中间
+    - 路由器周围没有明显的遮挡
+    - 两台路由器组mesh
