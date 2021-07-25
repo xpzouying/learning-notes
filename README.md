@@ -100,7 +100,7 @@
 
   - [单线复用组网方式](https://www.bilibili.com/video/av754204424) - 教学如何组MESH：图解、视频、实例教学。
 
-    ![image-20210724235011911](image-20210724235011911.png)
+    ![image-20210725130437941](image-20210725130437941.png)
 
   - [MESH组网：单线复用+VLAN](https://www.bilibili.com/video/BV1SA411E75D) - 增加VLAN的支持，由此可以支持IPTV的接入。
 
@@ -108,7 +108,10 @@
 
   - [家庭网络设置](https://www.bilibili.com/video/BV1Bt4y1v7Lk)
 
-    - 光猫切换成桥接模式。
+    - 光猫切换成桥接模式
+      1. 使用超级管理员登陆光猫
+      2. 调整光猫工作模式为桥接模式
+      3. 关闭光猫的DHCP服务
     - 路由器放置到房间的正中间
     - 路由器周围没有明显的遮挡
     - 两台路由器组mesh
