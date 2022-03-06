@@ -4,7 +4,7 @@
 
 TCP 的全称是：`Transmission Control Protocol`，它是一种面向：` 连接的、可靠的、基于字节流的传输层协议 `。
 
-它的作用就是完成 [传输层](https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E5%B1%82) 指定的能力，与其能力的是面向无连接的 [UDP 用户数据报协议](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE) 。
+它的作用就是完成 [传输层](https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E5%B1%82) 指定的能力，与其能力类似的是面向无连接的 [UDP 用户数据报协议](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE) 。
 
 在 [互联网协议套件](https://zh.wikipedia.org/wiki/TCP/IP%E5%8D%8F%E8%AE%AE%E6%97%8F) 四层协议中，它位于 ` 应用层协议 ` 和 ` 网络层 ` 之间。
 
@@ -32,8 +32,6 @@ TCP 协议的运行可以划分为 3 个阶段，
 -   TCP 如何进行传输
 
 -   TCP 协议详解
-
-<br />
 
 ---
 
