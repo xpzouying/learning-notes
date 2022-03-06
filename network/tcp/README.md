@@ -126,6 +126,8 @@ server 已经启动，client 此时准备请求建立连接，那么就往 serve
 
 -   [How TCP backlog works in Linux](https://veithen.io/2014/01/01/how-tcp-backlog-works-in-linux.html)
 
+-   [Cloudflare - SYN packet handling in the wild](https://blog.cloudflare.com/syn-packet-handling-in-the-wild/)
+
 <br />
 
  [↑ top](#contents)
