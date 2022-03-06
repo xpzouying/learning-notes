@@ -28,11 +28,11 @@
 
 ## 阅读感受
 
-### <a id="foundation">《银河帝国：基地七部曲》</a>
+### <a id="foundation">银河帝国：基地七部曲</a>
 
 <br />
 
-豆瓣链接： [银河帝国：基地七部曲](https://book.douban.com/subject/26389895/)
+豆瓣： [银河帝国：基地七部曲](https://book.douban.com/subject/26389895/)
 
 差不多是从 `2021 年 8 月 15 日 ` 读到 `2021 年 12 月底 `，完成了全套 7 本。
 
@@ -46,7 +46,7 @@
 
 <br />
 
--   豆瓣链接 - [程序员的职业素养](https://book.douban.com/subject/11614538/)
+-   豆瓣 - [程序员的职业素养](https://book.douban.com/subject/11614538/)
 
 -   阅读时间 - 2022 年 2 月
 
@@ -61,7 +61,7 @@ Bob 大叔介绍一个程序员在平时的工作、开发过程中，需要怎�
 
 ### <a id="clean-architecture">架构整洁之道</a>
 
--   豆瓣链接 - [架构整洁之道](https://book.douban.com/subject/30333919/)
+-   豆瓣 - [架构整洁之道](https://book.douban.com/subject/30333919/)
 
 -   阅读时间 - 2022 年 2 月 - 3 月
 

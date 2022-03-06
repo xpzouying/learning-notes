@@ -4,23 +4,22 @@
 
 ## Contents
 
-- [读书清单](#books)
-- [Golang](#go)
-- [软件/系统架构](#architecture)
+### [读书清单](./books.md)
 
-[↑ top](#contents)
+<br />
 
+### Go
 
-## Books
+- [*极客时间 - Go 训练营*](./go/geekbang-go/README.md)
 
-- [读书清单](./books.md)
+<br />
 
+### 软件/系统架构
 
-## Go
+- [*极客时间 - 架构实战营*](./architecture/geekbang-arch/README.md)
 
-- [极客时间 - Go 进阶训练营](./go/geekbang-go/README.md) - 进度：100%
+<br />
 
+### 计算机网络
 
-## Architecture
-
-- [极客时间 - 架构实战营](https://u.geekbang.org/subject/arch2nd)
+- [*TCP*](./network/tcp/README.md)
