@@ -130,6 +130,9 @@ server 已经启动，client 此时准备请求建立连接，那么就往 serve
 
 -   [Cloudflare - SYN packet handling in the wild](https://blog.cloudflare.com/syn-packet-handling-in-the-wild/)
 
+- [How TCP really works // Three-way handshake // TCP/IP Deep Dive](https://www.youtube.com/watch?v=rmFX1V49K8U)
+
+
 <br />
 
  [↑ top](#contents)
