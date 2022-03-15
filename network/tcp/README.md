@@ -155,7 +155,7 @@ curl http://localhost:8080/bar
 
 由于 HTTP 是建立在 TCP 协议之上，所以从客户端发出 HTTP 请求后，首先需要使用[三次握手建立连接](tcp-connect)。
 
-![](assets/2022-03-15-01-08-53-image.png)
+![](assets/wireshark_http_process.png)
 
 > WireShark 抓包日志在：[日志文件](./http_server_wireshark_logging.pcapng)，使用 WireShark 打开可以看到图中数据。
 
@@ -177,19 +177,19 @@ curl http://localhost:8080/bar
    
    3. 双击这一行，可以点开更详细的信息，可以看到有个值 `Sequence Number (raw): 很大的一个数字`。这里是因为会随机一个大数，用于防止冲撞。
       
-      ![](assets/2022-03-15-01-23-41-image.png)
+      ![](assets/wireshark_pack3_syn.png)
 
 2. `No. 4` 报文分析
    
    1. `Info` 列中，表明这里是一个 `8080 --> 59925` 的一个响应。这个报文是 `[SYN, ACK]`，表示这里既是一个 SYN 报文，也同时是一个 ACK 报文。在三次握手的过程中，将这两个报文同时放在了一个报文中返回给客户端，表示：服务端确认客户端发过来的连接（ACK），同时也请求建立一次连接（SYN）。
       
-      ![](assets/2022-03-15-01-32-06-image.png)
+      ![](assets/wireshark_pack4_syn_ack.png)
 
 3. `No. 5` 报文分析
    
    1. `Info` 列中，表明这里收到客户端发过来的 ACK 确认，确认收到服务端建立连接的过程。此时，客户端和服务器端双方就建立好了双向连接，从此就可以进行通信通信。
       
-      ![](assets/2022-03-15-01-33-06-image.png)
+      ![](assets/wireshark_pack5_ack.png)
 
 <br />
 
