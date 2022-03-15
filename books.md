@@ -12,19 +12,19 @@
 
 -   <a href="#the-clean-coder">The Clean Coder: 程序员的职业素养</a> - `100%`
 
--   <a href="clean-architecture">架构整洁之道</a> - `100%`
+-   <a href="#clean-architecture">架构整洁之道</a> - `100%`
 
--   <a href="clean-code">代码整洁之道</a> - `20%`
+-   <a href="#clean-code">代码整洁之道</a> - `20%`
 
 -   [连城诀](https://book.douban.com/subject/6969096/) - `100%`。过年假期闲来无聊，读一下没有读过的金庸小说。
 
--   <a href="working-effectively-with-legacy-code">修改代码的艺术</a> - `10%`
+-   <a href="#working-effectively-with-legacy-code">修改代码的艺术</a> - `10%`
 
--   <a href="ztjgysx">中台架构与实现</a> - `40%`
+-   <a href="#ztjgysx">中台架构与实现</a> - `40%`
 
 -   <a href="">领域驱动设计</a> - `100%`
 
--   <a href="re-engineering">遗留系统重建实战</a> - `100%`
+-   <a href="#re-engineering">遗留系统重建实战</a> - `100%`
 
 <br /><hr />
 
