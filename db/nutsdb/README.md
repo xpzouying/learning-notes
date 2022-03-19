@@ -234,6 +234,113 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 
 <br /> <hr />
 
+
+## 事务提交
+
+在前面分析 `put` 方法，进行写的时候，实际上只是完成一部分，只是暂时将数据写到了内存中，并没有完成一次完整的事务操作。在此时，如果有其他的写成读取对应数据时，实际上是获取不到对应的值。只有让事务完成 `Commit` 操作后，才算是真正的结束写操作的全部流程。
+
+完成事务调教大概的流程为：
+
+1. 先检查是否有新的数据待写入，即前面提到的： `pendingWrites`。
+2. 检查写入的文件是否有足够的空间保存。如果没有，则需要 `rotateActiveFile`。
+3. 将新的数据写入到文件中。
+4. 更新索引中的 Record 中的 Hint 数据。
+
+**源码分析**
+
+假设文件有足够的空间保存我们待写入的数据，先看看如何将数据写入到文件中，并且更新索引中的数据。
+
+默认的文件大小是：**64 MB**。
+
+```go
+// 删除部分代码
+func (tx *Tx) Commit() error {
+	var e *Entry
+
+	// ...
+
+	for i := 0; i < writesLen; i++ {
+		entry := tx.pendingWrites[i]
+		
+		// 如果是最后一个 待写入 的数据
+		if i == writesLen-1 {
+			entry.Meta.status = Committed
+		}
+
+		// 当前文件的写入的 offset
+		off := tx.db.ActiveFile.writeOff
+		// 将 entry 的数据，写入到文件的位置上。（写磁盘文件完成！！！）
+		if _, err := tx.db.ActiveFile.WriteAt(entry.Encode(), off); err != nil {
+			return err
+		}
+
+		// 更新磁盘文件的状态
+		tx.db.ActiveFile.ActualSize += entrySize
+		tx.db.ActiveFile.writeOff += entrySize
+
+		// 如果是内存级别的，则每一个 entry 都会标记为 Committed
+		if tx.db.opt.EntryIdxMode == HintAndRAMIdxMode {
+			entry.Meta.status = Committed
+			e = entry
+		} else {
+			// 如何是磁盘持久化级别的话，那么这里没有特殊标记。
+			// 从函数一进入的代码看，只有最后一个 entry 才会标记为 Committed。
+			e = nil
+		}
+
+		countFlag := CountFlagEnabled
+		// ...
+
+		// 每一个 bucket 是有一个 B+ 树索引
+		bucket := string(entry.Meta.bucket)
+		if _, ok := tx.db.HintIdx[bucket]; !ok {
+			tx.db.HintIdx[bucket] = NewTree()
+		}
+
+		// 在 B+ 树索引更新对应的索引属性。
+		_ = tx.db.HintIdx[bucket].Insert(entry.Key, e, &Hint{
+			fileId:  tx.db.ActiveFile.fileId,
+			key:     entry.Key,
+			meta:    entry.Meta,
+			dataPos: uint64(off),
+		}, countFlag)
+
+		tx.db.KeyCount++  // db 中的 key 数量统计
+	}
+
+	tx.unlock()
+
+	tx.db = nil
+
+	return nil
+}
+```
+
+在这里有几个问题（注意：基于 tag=v0.1.0 版本）
+
+**问题 1**
+
+> NOTE(zy): 从代码看起来，无论是哪一种索引模式，内存级别的 B+ 树都保存得有完整的 Entry Value。
+>
+> 在这里就比较奇怪，如果是纯内存模型模型，那么内存中保存完整的 Entry（Key+Value）没有任何问题。
+> 但是，如果是内存+文件混合的模式，那么内存中为什么还需要保存完整的 Entry 呢，因为在读取 Entry 数据的时候，仍然是读取文件中的数据。
+
+
+**问题 2**
+
+为什么纯内存模式，是每一个 Entry 都会标记为 Committed。
+
+而内存+文件模式，是最后一个 Entry 标记为 Committed？
+
+
+**问题 3**
+
+因为每一个 bucket 都是一个 B+ 树，如果是并发地更新同一个 bucket 中的数据的话，那么不会产生并发的问题吗？
+
+
+<br /> <hr />
+
+
 ## <a id="refs"> Refs </a>
 
 - [NutsDB 说明文档](https://github.com/nutsdb/nutsdb/blob/master/README-CN.md)
