@@ -2,7 +2,7 @@
 
 代码使用 `tag=v0.1.0` 版本。
 
-db 两种方式：
+**db 两种方式**
 
 - HintAndRAMIdxMode - 默认，Entry 整个都保存在内存中。
 - HintAndMemoryMapIdxMode - 内存中就保存索引，真正的数据需要从数据文件中获取。
@@ -14,6 +14,8 @@ db 两种方式：
 
 
 <br /> <hr />
+
+
 
 ## <a id="simple-put-get"> 读写操作 </a>
 
@@ -72,20 +74,16 @@ func main() {
 
 <br /> <hr />
 
-### Entry 对象
+### <a id="entry-object">Entry 对象</a>
 
 一个操作对象，在 NutsDB 中叫 Entry，其数据结构如下：
 
-```
-// Encode returns the slice after the entry be encoded.
-//
-//  the entry stored format:
-//  |----------------------------------------------------------------------------------------------------------------|
-//  |  crc    | timestamp | ksz    | valueSize | flag  | TTL  |bucketSize| status | txId |  bucket |  key  |  value  |
-//  |----------------------------------------------------------------------------------------------------------------|
-//  | uint32  | uint64   |  uint32 |  uint32  | uint16 | uint32| uint32 | uint16 | uint64 | []byte | []byte | []byte |
-//  |----------------------------------------------------------------------------------------------------------------|
-```
+![](./assets/nutsdb_record.jpg)
+
+这里也分为 Header 和 Data 两块区域：
+
+1. Header - 40 Bytes（固定长度）。从 crc 到 txId。
+2. Data - bucket、key、value。
 
 
 <br /> <hr />
@@ -129,6 +127,7 @@ func (tx *Tx) put(bucket string, key, value []byte, ttl uint32, flag uint16, tim
 
 **HintAndRAMIdxMode 模式**
 
+
 默认使用的 db 模式是：`HintAndRAMIdxMode`。暂时删除其他无关代码。
 
 ```go
@@ -160,6 +159,26 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 1. 通过 bucket 名字，从 `hash` 找到对应 bucket 的索引，索引使用 `B+` 树实现。
 
 2. 然后通过索引找到对应的 Entry 。因为是使用 `HintAndRAMIdxMode` 模式，所以找到的 Record。其中 Record 包含对应的 Metadata 和 Entry，通过 Metadata 判断是否有效，若未有效，则返回里面的 Entry 即可。
+
+
+**B+ 树的数据**
+
+所有的数据都保存在 B+ 树的叶子结点中，叶子结点上面的元素叫做：`Record`，其中的结构为：
+
+```go
+// Record records entry and hint.
+Record struct {
+	H *Hint
+	E *Entry
+}
+```
+
+1. Hint - 数据元素的 MetaData 数据。包含，是否被删除、过期时间等等。
+2. Entry - 真实的数据。
+
+
+> TODO(zy): 在 Hint 和 Entry 中都包含 MetaData，不知道为什么需要相同的数据？
+
 
 <br />
 
@@ -202,6 +221,15 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 
 先找到对应的 B+ 实现的索引，这一步与前面的一致。
 
+由于内存中的 B+ 树，只包含对应的数据索引，真正的数据需要去文件中读取。所以这里会通过 Record 中的 Hint 数据获取对应 Entry 所在的文件和偏移位，读出真正的数据。
+
+
+**如何从磁盘文件中加载数据**
+
+1. 从 B+ 树索引获取文件和数据在文件中的偏移位（Offset），即可定位到 Entry 在文件的开始位置。
+2. [Entry 结构体](#entry-object) 分为 Header 和 Data 两块。首先加载 Header （固定的 40 字节），然后根据 Header 中的数据 `bucketSize`、 `keySize`、`valueSize`，分别加载出对应的数据。
+
+> TODO(zy): 在这里使用了 mmap 的文件映射，进行加速。需要研究一下 mmap 的使用。
 
 
 <br /> <hr />
