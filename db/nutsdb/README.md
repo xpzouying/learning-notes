@@ -160,6 +160,7 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 
 2. 然后通过索引找到对应的 Entry 。因为是使用 `HintAndRAMIdxMode` 模式，所以找到的 Record。其中 Record 包含对应的 Metadata 和 Entry，通过 Metadata 判断是否有效，若未有效，则返回里面的 Entry 即可。
 
+<br />
 
 **B+ 树的数据**
 
@@ -223,6 +224,7 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 
 由于内存中的 B+ 树，只包含对应的数据索引，真正的数据需要去文件中读取。所以这里会通过 Record 中的 Hint 数据获取对应 Entry 所在的文件和偏移位，读出真正的数据。
 
+<br />
 
 **如何从磁盘文件中加载数据**
 
@@ -322,8 +324,13 @@ func (tx *Tx) Commit() error {
 
 从代码看起来，无论是哪一种索引模式，内存级别的 B+ 树都保存得有完整的 Entry Value。
 
-在这里就比较奇怪，如果是纯内存模型模型，那么内存中保存完整的 Entry（Key+Value）没有任何问题。
+在这里就比较奇怪，如果是纯内存模型，那么内存中保存完整的 Entry（Key+Value）没有任何问题。
 但是，如果是内存+文件混合的模式，那么内存中为什么还需要保存完整的 Entry 呢，因为在读取 Entry 数据的时候，仍然是读取文件中的数据。
+
+> 这里也跟作者聊了一下。答复说：如果是纯内存模型，那么内存里面保存的是完整的 Entry （Key+Value），
+> 如果是 `内存索引 + 文件数据` 的混合模式，则内存中应该只是保存索引，数据应该都在文件中。
+> 
+> 但是从目前的写行为中看，并非如此。看看是不是后面的版本有优化。
 
 
 **问题 2**
@@ -332,6 +339,9 @@ func (tx *Tx) Commit() error {
 
 而内存+文件模式，是最后一个 Entry 标记为 Committed？
 
+> 跟作者 [@xujiajun](github.com/xujiajun) 聊了一下，他说按理说都应该只是最后一个提交成功了，才算是一次事务所有的 Entry 都算是 Committed。
+>
+> 在代码中，没有发现相关的处理。不知道是 v0.1.0 版本的问题，还是漏看的原因。
 
 **问题 3**
 
