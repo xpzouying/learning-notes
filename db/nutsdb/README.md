@@ -11,6 +11,9 @@
 ## <a id="contents"> Contents </a>
 
 - [读写操作](#simple-put-get)
+- [事务提交](#tx-commit)
+- [参考资料](#refs)
+
 
 
 <br /> <hr />
@@ -237,7 +240,7 @@ func (tx *Tx) Get(bucket string, key []byte) (e *Entry, err error) {
 <br /> <hr />
 
 
-## 事务提交
+## <a id="tx-commit">事务提交</a>
 
 在前面分析 `put` 方法，进行写的时候，实际上只是完成一部分，只是暂时将数据写到了内存中，并没有完成一次完整的事务操作。在此时，如果有其他的写成读取对应数据时，实际上是获取不到对应的值。只有让事务完成 `Commit` 操作后，才算是真正的结束写操作的全部流程。
 
