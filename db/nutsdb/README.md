@@ -346,6 +346,7 @@ func (tx *Tx) Commit() error {
 >
 > 在代码中，没有发现相关的处理。不知道是 v0.1.0 版本的问题，还是漏看的原因。
 
+
 **问题 3**
 
 因为每一个 bucket 都是一个 B+ 树，如果是并发地更新同一个 bucket 中的数据的话，那么不会产生并发的问题吗？
@@ -358,9 +359,52 @@ func (tx *Tx) Commit() error {
 <br /> <hr />
 
 
+## <a id="mmap">mmap</a>
+
+对于文件的操作，使用了 [mmap](github.com/grandecola/mmap) 进行优化。
+
+
+
+## WAL 日志同步写的问题
+
+
+**背景**
+
+当我们一次事务的提交过程中，每次操作都是一个 Entry，也对应的会生成一个 WAL 日志。
+
+**问题**
+
+在 `Commit` 方法中，写入多个 WAL 日志时，每一个 WAL 日志的写入都会调用一次文件的写入，这样就会产生大量的 IO 操作，导致非常慢。
+
+对应的优化思路：我们可以将一批 WAL 日志的数据积累起来，写入一次即可。
+
+**大致方案：**
+
+1. 使用一个缓冲区，缓存“准备写盘”的 entry list。
+2. 如果文件够用，则，一直往缓冲区里面写数据。
+3. 当文件不够用时，并且缓冲区有待写入的数据时，先写入缓存数据，然后做 rotate 行为。
+4. 如果是最后一个文件，写入缓存数据。
+
+
+按照该思路提了个 PR - [https://github.com/nutsdb/nutsdb/pull/132](https://github.com/nutsdb/nutsdb/pull/132)
+
+对应的测试代码：[codes](./code/wal_sync_write.go)
+
+优化前：
+```
+2022/03/24 15:20:06 write time_used: 107899
+```
+
+优化后：
+```
+2022/03/24 15:17:18 write time_used: 610
+```
+
+
 ## <a id="refs"> Refs </a>
 
 - [NutsDB 说明文档](https://github.com/nutsdb/nutsdb/blob/master/README-CN.md)
+
 
 
 ## todos
@@ -370,3 +414,4 @@ func (tx *Tx) Commit() error {
 - [ ] 写日志，是如何工作的。Append Log 或者 WAL。
 - [ ] 具体研究一下 [隔离级别](https://github.com/nutsdb/nutsdb/blob/master/README-CN.md#%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E4%BD%8E%E5%88%B0%E9%AB%98)
 - [ ] B+ 树 vs LSM 树 的研究。
+- [ ] 对于 `buildIndexes` 函数，写的不是很优雅。`maxFileId, dataFileIds = db.getMaxFileIdAndFileIds()` 这里面包含获取所有文件的列表，也做了隐藏的排序功能，实际上上层一脸懵逼。
