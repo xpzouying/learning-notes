@@ -28,6 +28,8 @@
 
 -   <a href="#designing-data-intensive-applications">数据密集型应用系统设计</a> - `70%`
 
+-   [匠艺整洁之道：程序员的职业修养](#clean-craftsmanship) - `30%`
+
 
 <br /><hr />
 
@@ -192,3 +194,16 @@ Bob 大叔介绍一个程序员在平时的工作、开发过程中，需要怎�
  [↑ top](#contents)
 
 <hr />
+
+
+### <a id="clean-craftsmanship">匠艺整洁之道：程序员的职业修养</a>
+
+- 豆瓣 - [匠艺整洁之道：程序员的职业修养](https://book.douban.com/subject/35879791/)
+
+- 状态 - 2022 年 5 月 - 至今
+
+Bob 大叔的一本 `Clean` 系列的封笔之作，依然是大力的在推广代码质量，如何做好编码的测试。
+
+但是，从个人待过的大厂和小厂来说，还没有在国内的公司感受到公司领导层对于代码质量的重视，一切依然是业务至上。但是对于实际体验来说，正如书中的经验所讲，一旦没有单元测试，原有的业务代码会出现：代码僵化、可维护性差等等弊病，但是呢，`WHO CARES? NO ONE !!!`
+
+另外，该书配套的有 Bob 大叔演示视频，可以在 [Oreilly](https://learning.oreilly.com/videos/clean-craftsmanship-disciplines/9780137676385/9780137676385-CCC1_clean_craftsmanship_stack/) 观看。
